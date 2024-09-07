@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(185, 163, 123);
+}
+.content{
+    width: 410px;
+    height: 410px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+
+}
+h1{
+    border: 1px solid white;
+    background-color: rgb(150, 100, 36);
+    color: white;
+    padding: 8px;
+    border-radius:10px ;
+    margin-bottom: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.hide{
+    display: none;
+}
+h2{
+    margin:15px;
+    /* border: 1px solid white; */
+    background-color: rgb(3, 5, 3);
+    color: rgb(27, 241, 63);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    width:400px;
+    height: 400px;
+    border: 1px solid rgb(154, 190, 22);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 194, 99);
+    border-radius: 10px;
+
+}
+
+#new_game{
+    width: 100px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(212, 224, 33);
+    margin-bottom: 15px;
+}
+.game{
+    /* margin: auto; */
+    width: 380px;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.box{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: wheat;
+    font-size: 90px;
+    color: black;
+    border: none;
+}
+#reset{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
